@@ -1,0 +1,233 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+main {
+    position: absolute;
+    width: 300vw;
+    height: 300vh;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: linear-gradient(#444cf7 0.5px, transparent 0.5px), linear-gradient(to right, #444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 40px 40px;
+    transform: translate(var(--x, 0), var(--y, 0));
+    will-change: transform;
+}
+
+span {
+    position: absolute;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=DM+Serif+Text&family=Montserrat:wght@100;700&family=Raleway:wght@100&family=Source+Serif+Pro:wght@200&display=swap');
+.portefolio {
+    font-size: 3vh;
+    position: fixed;
+    left: 2%;
+    top: 1%;
+    font-family: 'DM Serif Text', serif;
+    z-index: 5;
+}
+
+.twoday {
+    width: calc(40px * 8);
+    position: fixed;
+    left: calc(40px * 8 + 20px);
+    top: 30%;
+}
+
+.image-container {
+    position: relative;
+}
+
+.docu {
+    width: 70vh;
+    position: fixed;
+    left: 45%;
+    top: 35%;
+}
+
+.macadams {
+    width: 10vh;
+    position: fixed;
+    left: calc(150px * 8 + 20px);
+    top: 20%;
+}
+
+.forme {
+    width: calc(30px * 8);
+    position: fixed;
+    left: calc(35px * 8 + 20px);
+    top: 10%;
+}
+
+.forme_2 {
+    width: calc(90px * 8);
+    position: fixed;
+    left: calc(30px * 8 + 20px);
+    top: 50%;
+}
+
+.forme_6 {
+    width: calc(90px * 8);
+    position: fixed;
+    left: calc(45px * 8 + 20px);
+    top: 30%;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url("fonts/Poppins-SemiBold.ttf") format("opentype");
+}
+
+.diplome {
+    width: calc(20px * 8);
+    position: fixed;
+    left: calc(65px * 8 + 20px);
+    top: 10%;
+    font-family: "poppins";
+}
+
+.mediatract {
+    width: calc(27px * 8);
+    position: fixed;
+    left: calc(150px * 8 + 20px);
+    top: 10%;
+}
+
+.uniformisation {
+    width: calc(35px * 8);
+    position: fixed;
+    left: calc(150px * 8 + 20px);
+    top: 20%;
+}
+
+.motion {
+    width: calc(35px * 8);
+    position: fixed;
+    left: calc(250px * 8 + 20px);
+    top: 10%;
+}
+
+.web_to_print {
+    width: calc(35px * 8);
+    position: fixed;
+    left: calc(60px * 8 + 20px);
+    top: 20%;
+}
+
+.adams {
+    width: calc(20px * 8);
+    position: fixed;
+    left: calc(400px * 8 + 20px);
+    top: 20%;
+}
+
+.documentaire {
+    width: calc(30px * 8);
+    position: fixed;
+    left: calc(130px * 8 + 20px);
+    top: 40%;
+}
+
+.images {
+    width: calc(25px * 8);
+    position: fixed;
+    left: calc(250px * 8 + 20px);
+    top: 30%;
+}
+
+.references {
+    width: calc(25px * 8);
+    position: fixed;
+    left: calc(300px * 8 + 20px);
+    top: 30%;
+}
+
+.moi {
+    width: calc(25px * 8);
+    position: fixed;
+    left: calc(150px * 8 + 20px);
+    top: 30%;
+}
+
+
+/**pop up***/
+
+article {
+    display: none;
+    position: absolute;
+    /* pour la rendre déplaçable */
+    /* position d’ouverture */
+    top: 50%;
+    left: 50%;
+    /* centrage */
+    transform: translate(-50%, -50%);
+    /* style visuel */
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 1em;
+    max-width: 20em;
+}
+
+article.open {
+    display: block;
+}
+
+.picture {
+    max-width: 100%;
+}
+
+article {
+    font-family: 'DM Serif Text', serif;
+}
+
+#mediatract {
+    left: calc(200px * 8 + 20px);
+    top: calc(120px * 8 + 20px);
+    max-height: 200px;
+    overflow: scroll;
+}
+
+.instagram {
+    max-width: 100%;
+}
+
+#documentaire {
+    left: calc(200px * 8 + 20px);
+    top: calc(120px * 8 + 20px);
+    max-height: 200px;
+    overflow: scroll;
+}
+
+#images {
+    left: calc(200px * 8 + 20px);
+    top: calc(120px * 8 + 20px);
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#chantier {
+    left: calc(150px * 8 + 20px);
+    top: calc(120px * 8 + 20px);
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#moi {
+    left: calc(150px * 8 + 20px);
+    top: calc(80px * 8 + 20px);
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
