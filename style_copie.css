@@ -232,7 +232,7 @@ article {
     overflow-x: hidden;
 }
 
-#moi {
+#uniformisation {
     left: calc(200px * 8 + 20px);
     top: calc(80px * 8 + 20px);
     max-height: 200px;
