@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Source+Serif+Pro:wght@200&display=swap');
+@font-face {
+    font-family: "format";
+    src: url("fonts/format_1452.woff2") format("woff2"), url("fonts/format_1452.woff") format("woff");
+}
+
+body {
+    font-family: "format";
+    font-size: 2vw;
+    overflow-x: hidden;
+}
+
+.boxTexte01 {
+    width: calc(60 - 55px);
+    margin-left: 43%;
+    padding: 10px;
+}
+
+.boxPicture01 {
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    top: 0%;
+    overflow-y: scroll;
+    background-color: rgb(255, 255, 255);
+}
+
+.boxPicture01 img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: "Ouroboros";
+    src: url("fonts/Ouroboros-Regular.woff2") format("woff2"), url("fonts/Ouroboros-Regular.woff") format("woff");
+}
