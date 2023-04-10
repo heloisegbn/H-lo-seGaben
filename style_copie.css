@@ -255,3 +255,11 @@ article {
     overflow: scroll;
     overflow-x: hidden;
 }
+
+#diplome {
+    left: calc(210px * 8 + 20px);
+    top: calc(80px * 8 + 20px);
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
