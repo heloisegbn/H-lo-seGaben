@@ -247,3 +247,11 @@ article {
     overflow: scroll;
     overflow-x: hidden;
 }
+
+#motion {
+    left: calc(150px * 8 + 20px);
+    top: calc(80px * 8 + 20px);
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
