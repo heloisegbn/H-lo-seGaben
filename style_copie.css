@@ -158,6 +158,13 @@ span {
     top: 30%;
 }
 
+.identite {
+    width: calc(25px * 8);
+    position: fixed;
+    left: calc(190px * 8 + 20px);
+    top: 50%;
+}
+
 
 /**pop up***/
 
@@ -257,6 +264,14 @@ article {
 }
 
 #diplome {
+    left: calc(120px * 8 + 20px);
+    top: calc(80px * 8 + 20px);
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#identite {
     left: calc(120px * 8 + 20px);
     top: calc(80px * 8 + 20px);
     max-height: 200px;
