@@ -166,10 +166,10 @@ span {
 }
 
 .edition_dessin {
-    width: calc(50px * 8);
+    width: calc(20px * 8);
     position: fixed;
-    left: calc(190px * 8 + 20px);
-    top: 50%;
+    left: calc(200px * 8 + 20px);
+    top: 30%;
 }
 
 
