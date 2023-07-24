@@ -313,3 +313,11 @@ article {
     overflow: scroll;
     overflow-x: hidden;
 }
+
+#references {
+    left: calc(25px * 8 + 20px);
+    top: calc(300px * 8 + 20px);
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
