@@ -301,7 +301,7 @@ article {
     overflow-x: hidden;
 }
 
-#doc_ecrit {
+#document_ecrit {
     left: calc(100px * 8 + 20px);
     top: calc(120px * 8 + 20px);
     max-height: 200px;
