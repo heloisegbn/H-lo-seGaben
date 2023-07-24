@@ -207,6 +207,11 @@ article.open {
     max-width: 100%;
 }
 
+.picture one {
+    max-width: 100%;
+    rotate: 90%;
+}
+
 article {
     font-family: 'DM Serif Text', serif;
 }
