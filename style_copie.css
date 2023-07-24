@@ -209,7 +209,7 @@ article.open {
 
 .picture one {
     max-width: 100%;
-    rotate: 90%;
+    transform: rotate(90deg);
 }
 
 article {
